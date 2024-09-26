@@ -1,0 +1,14 @@
+com\example\springboot\demos\web\PathVariableController.class
+com\example\springboot\demos\web\ResponseResult.class
+com\example\springboot\SpringbootApplication.class
+com\example\springboot\controller\request\UserPageRequest.class
+com\example\springboot\service\impl\UserService.class
+com\example\springboot\demos\web\User.class
+com\example\springboot\entity\User.class
+com\example\springboot\controller\request\AnimalController.class
+com\example\springboot\service\IUserService.class
+com\example\springboot\common\Result.class
+com\example\springboot\mapper\UserMapper.class
+com\example\springboot\demos\web\BasicController.class
+com\example\springboot\controller\request\UserController.class
+com\example\springboot\controller\request\BaseRequest.class

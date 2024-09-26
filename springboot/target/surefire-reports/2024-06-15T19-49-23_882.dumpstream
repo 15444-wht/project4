@@ -1,0 +1,5 @@
+# Created at 2024-06-15T19:49:24.008
+Boot Manifest-JAR contains absolute paths in classpath 'G:\project\springboot\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

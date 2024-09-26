@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot.mapper.UserMapper">
+    <select id="save">
+        insert into user(img,name,sex,age,type,status,jieshao)
+        values (#{img},#{name},#{sex},#{age},#{type},#{status},#{jieshao})
+    </select>
+    <select id="list" resultType="com.example.springboot.entity.User">
+        select * from user
+    </select>
+    <select id="listByCondition" resultType="com.example.springboot.entity.User">
+        select * from user
+                 <where>
+                 <if test="name !=null and name !=''">
+                     name like concat('%',#{name},'%')
+                 </if>
+                 <if test="age !=null and age !=''">
+                    and age like concat('%',#{age},'%')
+                 </if>
+                 </where>
+    </select>
+</mapper>
